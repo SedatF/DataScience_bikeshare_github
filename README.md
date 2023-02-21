@@ -1,17 +1,36 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+With pandas on Bikeshare Data
 
 ### Date created
-Include the date you created this project and README file.
+21.02.2023
 
 ### Project Title
-Replace the Project Title
+With pandas on Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project uses the panda polarity and simple statistical methods to see the most popular days and the most common stations with the bicycle sharing data of Chicago, Washington and New York cities.
+
 
 ### Files used
-Include the files used
+chicago.csv - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
+
+new_york_city.csv - Dataset containing all bikeshare information for the city of New York provided by Udacity.
+
+washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity.
+Note: This does not include the 'Gender' or 'Birth Year' data.
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Built with
+Python 3.6.6 - The language used to develop this.
+pandas - One of the libraries used for this.
+numpy - One of the libraries used for this.
+time - One of the libraries used for this.
 
+Author
+Sedat FINDIK 
+
+Acknowledgements
+Udacity - Udacity's Data Analyst Nanodegree program and their instructors were extremely helpful while I was pursuing this project.
+
+pandas docs - pandas documentation was immensely helpful in understanding the implemention of pandas methods used in this project.
+https://pandas.pydata.org/
