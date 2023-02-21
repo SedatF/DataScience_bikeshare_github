@@ -2,10 +2,10 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv', 'Chicago': 'chicago.csv',
+CITY_DATA = { 'chicago': 'chicago.csv', 'Chicago': 'chicago.csv', 'CHICAGO': 'chicago.csv',
              'New York City': 'new_york_city.csv', 'New york city': 'new_york_city.csv',
-              'new york city': 'new_york_city.csv', 'washington': 'washington.csv',
-             'Washington': 'washington.csv' }
+              'new york city': 'new_york_city.csv', 'NEW YORK CITY': 'new_york_city.csv', 
+             'washington': 'washington.csv', 'Washington': 'washington.csv' , 'WASHINGTON': 'washington.csv'}
 
 def get_filters():
     """
@@ -199,6 +199,7 @@ def user_stats(df):
         print("\nThe counts of gender types :\n\n{gender}")
     except:
         print("\nThere is no 'Gender' column. ")
+        print("\nTry again please. ")
 
 
     # TO DO: Display earliest, most recent, and most common year of birth
@@ -211,6 +212,7 @@ def user_stats(df):
         print("\nThe most common year of birth: {common_year}")
     except:
         print("There are no birth year details.")
+        print("\nTry again please. ")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
