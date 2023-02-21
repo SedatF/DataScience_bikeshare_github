@@ -1,5 +1,3 @@
-With pandas on Bikeshare Data
-
 ### Date created
 21.02.2023
 
