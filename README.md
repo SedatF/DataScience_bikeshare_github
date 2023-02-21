@@ -28,3 +28,9 @@ time - One of the libraries used for this.
 
 Author
 Sedat FINDIK 
+
+Acknowledgements
+Udacity - Udacity's Data Analyst Nanodegree program and their instructors were extremely helpful while I was pursuing this project.
+
+pandas docs - pandas documentation was immensely helpful in understanding the implemention of pandas methods used in this project.
+https://pandas.pydata.org/
