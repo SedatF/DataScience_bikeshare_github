@@ -26,3 +26,5 @@ pandas - One of the libraries used for this.
 numpy - One of the libraries used for this.
 time - One of the libraries used for this.
 
+Author
+Sedat FINDIK 
